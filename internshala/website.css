@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+
+
+body{
+    background: url("images/image4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width:100%;
+    background-color: rgb(107, 171, 227);
+}
+
+
+                                /* nav bar css code      */
+
+.header{
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 20% 50% 30%;
+    /* align-items: center; */
+    background-color: rgb(7, 166, 245);
+    height: 40px;
+    align-items: center;
+}
+
+
+.logo a {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+
+
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.logo p{
+    font-size: 1.15em;
+    font-weight: 700;
+    /* columns: 2; */
+}
+
+
+
+
+/* .logo ul li ul{
+    display: none;
+}
+
+
+.logo ul .sub:hover ul{
+    display:flex;
+    flex-direction: row;
+    text-align: left;
+    background-color: rgb(0, 251, 255);
+    padding:0;
+    width: 120px;
+    height: 160px;
+    margin-left: 10px;
+    margin-top:5px;
+    justify-content:center;
+}
+
+
+.logo ul .sub ul li{
+    margin-top:5px;
+    border-bottom: 1px dotted red;
+    padding-top: 15px;
+    
+} */
+
+
+div ul{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+
+.nav .menu li{
+    margin-left: 20px;
+}
+
+
+.nav .sym{
+    justify-content: space-evenly;
+}
+
+
+a {
+    font-size: 1.1em;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+    transition: all  300ms ease;
+}
+
+
+.nav .menu a:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+
+.section1{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 15% 70% 15%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.section1 div{
+    margin-bottom: 20px;
+}
+
+.section1 div a{
+    font-size: 50px;
+}
+
+.section1 div div h2{
+    text-align: left;
+    margin-left:40px;
+    font-size: 2em;
+    color: rgb(1, 12, 133);
+}
+
+.section1 div .para{
+    text-align: left;
+    margin-left: 42px;
+    font-weight: 600;
+}
+
+.section1 div div button{
+    width: 130px;
+    height: 30px;
+    font-weight: 600;
+}
+
+                         /* section2 css code            */          
+
+.container{
+    display: grid;
+    grid-template-columns: 33.3333% 33.3333% 33.3333%;
+    justify-content: space-between;
+    justify-items: center;
+    
+}
+
+/* .container .box{
+    display: grid;
+    text-align: center;
+    justify-self: center;
+} */
+
+
+.container .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(173, 215, 229);
+    width:90%;
+    height: 300px;
+    border-radius: 7px;
+    transition: all 300ms ease;
+}
+
+.container .box:hover{
+    background-color: rgb(255, 255, 255);
+    width:92%;
+    border-radius: 8px;
+    
+}
+
+
+.box div{
+    text-align: center;
+    justify-content: center;
+}
+
+
+.box .circle{
+    display: flex;
+    height: 100px;
+    width:100px;
+    border-radius: 50%;
+    margin-top: 15px;
+    align-items: center;
+}
+
+
+.box .circle  i{
+    font-size: 50px;;
+}
+
+.box .heading{
+    margin-top: 7px;;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+
+.box .text{
+    margin :10px;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+
+.box #button button{
+    background-color: rgb(38, 140, 248);
+    width:160px;
+    height: 40px;
+    font-weight: 600;
+    transition: all 300ms ease;
+}
+
+
+.box #button button a{
+    color: white;
+    font-weight: 900;
+}
+
+
+.box #button button:hover{
+    background-color: rgb(181, 181, 181);
+
+}
